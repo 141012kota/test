@@ -5,13 +5,13 @@
   const BUTTON = document.querySelector(".button");
   const RESULT = document.querySelector(".result");
 
-  const FORTUNE_LIST = [["大吉", "yellow"],
-                        ["吉", "orange"],
-                        ["中吉", "pink"],
-                        ["小吉", "green"],
-                        ["末吉", "blue"],
-                        ["凶", "white"],
-                        ["大凶", "gray"]];
+  const FORTUNE_LIST = [["おちんちん！！", "yellow"],
+                        ["ちんこ", "orange"],
+                        ["ちんちん", "pink"],
+                        ["ちん", "green"],
+                        ["たま", "blue"],
+                        ["きんたま", "white"],
+                        ["おきんたま", "gray"]];
 
   BUTTON.addEventListener("click",()=>{
     let _randNum = Math.floor(Math.random()*FORTUNE_LIST.length);
